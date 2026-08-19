@@ -1,6 +1,4 @@
 # Stride Scheduling in xv6
-
-## 한 줄 요약
 xv6의 라운드 로빈 스케줄러를 티켓 비율에 따라 CPU를 결정론적으로 분배하는 Stride 스케줄러로 교체한 과제.
 
 ## 구현한 내용
@@ -16,7 +14,7 @@ xv6의 라운드 로빈 스케줄러를 티켓 비율에 따라 CPU를 결정론
 - 채점/검증용 유저 프로그램 `debug_test`, `syscall_test`, `scheduler_test` 바이너리를 `Makefile`의 `UPROGS`에 추가
 
 ## 사용 스택
-- C (xv6 커널 및 유저 프로그램)
-- x86 어셈블리 (xv6 부트/트랩 관련 기존 코드)
-- xv6-public (MIT PDOS) 기반 커널, `qemu`/`bochs` 에뮬레이터 상에서 빌드 및 실행
+- C
+- x86 어셈블리 (xv6 부트/트랩 기존 코드)
+- xv6-public, `qemu`/`bochs` 에뮬레이터 상에서 빌드 및 실행
 - GNU Make
