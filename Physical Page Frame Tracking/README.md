@@ -18,5 +18,5 @@ xv6의 free-list 기반 물리 메모리 할당기에 프레임 단위 실시간
 ## 사용 스택
 - C
 - x86 어셈블리 (xv6 부트/트랩 기존 코드), x86 페이지 테이블(PDE/PTE) 구조 직접 파싱
-- xv6-public 기반 커널, `qemu`/`bochs` 에뮬레이터 상에서 빌드 및 실행
+- xv6-public, `qemu`/`bochs` 에뮬레이터 상에서 빌드 및 실행
 - GNU Make
