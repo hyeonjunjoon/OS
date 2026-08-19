@@ -1,5 +1,7 @@
 # Snapshot(Checkpointing) in xv6
 
+숭실대학교 운영체제 수업 개인 설계 과제.
+
 Copy-On-Write(COW) 기반 블록 공유를 도입해 xv6 파일 시스템에 스냅샷 생성·롤백·삭제 기능을 추가한 과제.
 
 ## 구현한 내용
